@@ -1,0 +1,16 @@
+{
+  "name": "saucedemo-playwright-e2e",
+  "version": "1.0.0",
+  "description": "Playwright end to end tests for saucedemo.com",
+  "main": "playwright.config.js",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1"
+  }
+}

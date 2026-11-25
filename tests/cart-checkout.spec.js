@@ -15,6 +15,7 @@ test.describe('Cart', () => {
   test('cart page lists the added product', async ({ loggedIn: page, inventory }) => {
     await inventory.addToCart(BACKPACK);
     await inventory.cartLink.click();
+    await expect(page).toHaveURL(/cart\.html/);
     await expect(page.locator('[data-test="inventory-item-name"]')).toHaveText('Sauce Labs Backpack');
   });
 });

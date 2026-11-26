@@ -1,5 +1,5 @@
 {
-  "name": "saucedemo-playwright-e2e",
+  "name": "storefront-e2e-playwright",
   "version": "1.0.0",
   "description": "Playwright end to end tests for saucedemo.com",
   "main": "playwright.config.js",

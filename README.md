@@ -24,8 +24,8 @@ playwright.config.js
 ## Run it
 
 ```bash
-git clone https://github.com/Belaalos/saucedemo-playwright-e2e.git
-cd saucedemo-playwright-e2e
+git clone https://github.com/Belaalos/storefront-e2e-playwright.git
+cd storefront-e2e-playwright
 npm install
 npx playwright install chromium
 npm test
